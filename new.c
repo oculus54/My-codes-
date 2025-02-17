@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main(){
-printf("Helloq");
+printf("Koyel ekta khanki magi");
 return 0;
 }
