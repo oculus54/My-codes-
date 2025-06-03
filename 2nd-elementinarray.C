@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-void main()
+#include <limits.h>
+int main()
 {
     int n;
     printf("Enter the size :");
@@ -13,7 +13,7 @@ void main()
     }
 
     int maxy, sec_max;
-    maxy = sec_max = a[0];
+    maxy = sec_max = INT_MIN;
 
     for (int i = 1; i < n; i++)
     
@@ -39,4 +39,5 @@ void main()
 
     printf("Maximum: %d\n", maxy);
     printf("Second Maximum: %d\n", sec_max);
+    return 0;
 }
